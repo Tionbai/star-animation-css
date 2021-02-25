@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+}
+
+.square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #181818;
+}
+
+.s0 {
+  animation: common 3s infinite, a0 3s infinite;
+}
+
+.s1 {
+  animation: common 3s infinite, a1 3s infinite;
+}
+
+.s2 {
+  animation: common 3s infinite, a2 3s infinite;
+}
+
+.s3 {
+  animation: common 3s infinite, a3 3s infinite;
+}
+
+.s4 {
+  animation: common 3s infinite, a4 3s infinite;
+}
+
+.s5 {
+  animation: common 3s infinite, a5 3s infinite;
+}
+
+.s6 {
+  animation: common 3s infinite, a6 3s infinite;
+}
+
+.s7 {
+  animation: common 3s infinite, a7 3s infinite;
+}
+
+.s8 {
+  animation: common 3s infinite, a8 3s infinite;
+}
+
+.s9 {
+  animation: common 3s infinite, a9 3s infinite;
+}
+
+.s10 {
+  animation: common 3s infinite, a10 3s infinite;
+}
+
+.s11 {
+  animation: common 3s infinite, a11 3s infinite;
+}
+
+.s12 {
+  animation: common 3s infinite, a12 3s infinite;
+}
+
+.s13 {
+  animation: common 3s infinite, a13 3s infinite;
+}
+
+.s14 {
+  animation: common 3s infinite, a14 3s infinite;
+}
+
+.s15 {
+  animation: common 3s infinite, a15 3s infinite;
+}
+
+.s16 {
+  animation: common 3s infinite, a16 3s infinite;
+}
+
+.s17 {
+  animation: common 3s infinite, a17 3s infinite;
+}
+
+@keyframes common {
+  50% {
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}
+
+@keyframes a0 {
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+}
+
+@keyframes a1 {
+  50% {
+    transform: translate(-50%, -50%) rotate(170deg);
+  }
+}
+
+@keyframes a2 {
+  50% {
+    transform: translate(-50%, -50%) rotate(160deg);
+  }
+}
+
+@keyframes a3 {
+  50% {
+    transform: translate(-50%, -50%) rotate(150deg);
+  }
+}
+
+@keyframes a4 {
+  50% {
+    transform: translate(-50%, -50%) rotate(140deg);
+  }
+}
+
+@keyframes a5 {
+  50% {
+    transform: translate(-50%, -50%) rotate(130deg);
+  }
+}
+
+@keyframes a6 {
+  50% {
+    transform: translate(-50%, -50%) rotate(120deg);
+  }
+}
+
+@keyframes a7 {
+  50% {
+    transform: translate(-50%, -50%) rotate(110deg);
+  }
+}
+
+@keyframes a8 {
+  50% {
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+}
+
+@keyframes a9 {
+  50% {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+@keyframes a10 {
+  50% {
+    transform: translate(-50%, -50%) rotate(80deg);
+  }
+}
+
+@keyframes a11 {
+  50% {
+    transform: translate(-50%, -50%) rotate(70deg);
+  }
+}
+
+@keyframes a12 {
+  50% {
+    transform: translate(-50%, -50%) rotate(60deg);
+  }
+}
+
+@keyframes a13 {
+  50% {
+    transform: translate(-50%, -50%) rotate(50deg);
+  }
+}
+
+@keyframes a14 {
+  50% {
+    transform: translate(-50%, -50%) rotate(40deg);
+  }
+}
+
+@keyframes a15 {
+  50% {
+    transform: translate(-50%, -50%) rotate(30deg);
+  }
+}
+
+@keyframes a16 {
+  50% {
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+}
+
+@keyframes a17 {
+  50% {
+    transform: translate(-50%, -50%) rotate(10deg);
+  }
+}
